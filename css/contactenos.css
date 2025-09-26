@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Ribeye&family=Righteous&family=Work+Sans&display=swap');
+
+
 /* RESET */
 * {
   margin: 0;
@@ -14,6 +17,32 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px;
+}
+
+
+.container-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  font-family: "Work Sans", sans-serif;
+  margin: 10px;
+}
+.container-header header{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.container-header header .logo a{
+  font-family: "Miniver", sans-serif;
+  font-size: 36px;
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* SECCIÓN CONTACTO */
