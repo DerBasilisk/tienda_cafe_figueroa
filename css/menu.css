@@ -141,6 +141,7 @@ h1 {
 
 /* Buttons inside cards */
 .card button {
+  border: none;
   display: inline-block;
   text-decoration: none;
   background: #e58c3a;

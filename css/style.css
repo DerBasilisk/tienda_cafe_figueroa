@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Miniver&family=Ribeye&family=Righteous&family=Work+Sans&display=swap');
 
-
 body{
   margin: 0;
   padding: 0;
@@ -91,9 +90,11 @@ html{
 }
 
 .cafeinicio-texto h1 {
-  font-size: 46px;
+  font-size: 50px;
   margin-bottom: 20px;
   color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
 }
 
 .cafeinicio-texto p {
@@ -101,6 +102,7 @@ html{
   margin-bottom: 25px;
   line-height: 1.5;
   color: #fff;
+  font-family: "Work Sans", sans-serif;
 }
 
 .buttons {
