@@ -16,11 +16,23 @@ html {
   scroll-behavior: smooth;
 }
 
+.carrito #contador{
+  position: absolute;
+  right: 48px;
+  top: 16px;
+  background: #e2750f;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 7px;
+  border-radius: 50%;
+}
+
 .fa-cart-shopping{
   font-size: 25px;
   margin-right: 40px;
   color: #ffffff;
-  cursor: pointer;;
+  cursor: pointer;
   transition: transform 0.3s ease; color: 0,3s ease;
 }
 .fa-cart-shopping:hover{
